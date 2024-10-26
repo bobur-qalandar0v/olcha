@@ -1,3 +1,14 @@
+import "/public/card1.png";
+import "/public/card2.png";
+import "/public/card3.png";
+import "/public/card4.png";
+import "/public/card5.png";
+import "/public/card6.png";
+import "/public/card7.png";
+import "/public/card8.png";
+import "/public/card9.png";
+import "/public/card10.png";
+
 export const ProductData = [
   {
     id: 1,
