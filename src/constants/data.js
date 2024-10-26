@@ -1,81 +1,70 @@
-import "/public/card1.png";
-import "/public/card2.png";
-import "/public/card3.png";
-import "/public/card4.png";
-import "/public/card5.png";
-import "/public/card6.png";
-import "/public/card7.png";
-import "/public/card8.png";
-import "/public/card9.png";
-import "/public/card10.png";
-
 export const ProductData = [
   {
     id: 1,
-    image: "/public/card1.png",
+    image: "/card1.png",
     title: "Kir yuvish mashinasi Beko WSPE7612A",
     firstChild: "4 688 430 so'm",
     other: "550 000 so'm x 12 oy",
   },
   {
     id: 2,
-    image: "/public/card2.png",
+    image: "/card2.png",
     title: "Konditsoner Artel Iceberg 12HDG Invetor",
     firstChild: "4 674 244 so'm",
     other: "548 000 so'm x 12 oy",
   },
   {
     id: 3,
-    image: "/public/card3.png",
+    image: "/card3.png",
     title: "Qo'lda ishlaydiga simsiz changyutgich, portativ",
     firstChild: "375 000 so'm",
     other: "44 000 so'm x 12 oy",
   },
   {
     id: 4,
-    image: "/public/card4.png",
+    image: "/card4.png",
     title: "Kir yuvish mashinasi Shivaki TG-70P",
     firstChild: "1 630 000 so'm",
     other: "191 000 so'm x 12 oy",
   },
   {
     id: 5,
-    image: "/public/card5.png",
+    image: "/card5.png",
     title: "Yarim avtomatik kir yuvish mashinasi Artel-TG70P",
     firstChild: "1 656 744 so'm",
     other: "195 000 so'm x 12 oy",
   },
   {
     id: 6,
-    image: "/public/card6.png",
+    image: "/card6.png",
     title: "Konditsioner TCL T-Pro 24 T2 Inverter",
     firstChild: "7 595 698 so'm",
     other: "890 000 so'm x 12 oy",
   },
   {
     id: 7,
-    image: "/public/card7.png",
+    image: "/card7.png",
     title: "Dazmol Emerald EA773TG",
     firstChild: "597 725 so'm",
     other: "71 000 so'm x 12 oy",
   },
   {
     id: 8,
-    image: "/public/card8.png",
+    image: "/card8.png",
     title: "Ballu BHG-10M",
     firstChild: "2 270 244 so'm",
     other: "266 000 so'm x 12 oy",
   },
   {
     id: 9,
-    image: "/public/card9.png",
+    image: "/card9.png",
     title: "Dazmol Philips DST7060",
     firstChild: "1 598 244 so'm",
     other: "188 000 so'm x 12 oy",
   },
   {
     id: 10,
-    image: "/public/card10.png",
+    image: "/card10.png",
     title: "Kir yuvish mashinasi Candy Smart Pro",
     firstChild: "3 591 698 so'm",
     other: "421 000 so'm x 12 oy",
