@@ -1,0 +1,186 @@
+.phonecard {
+  width: 100%;
+  margin-top: 50px;
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__top {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+
+    @media screen and (max-width: 1200px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media screen and (max-width: 910px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (max-width: 730px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 500px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  &__sale {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.39);
+    }
+  }
+
+  &__img {
+    position: relative;
+    border-radius: 6px;
+
+    > img {
+      width: 100%;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+  }
+
+  &__buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 12px;
+    right: 12px;
+
+    > button {
+      background-color: $white-color;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2px;
+    }
+  }
+
+  &__content {
+    padding: 6px 10px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+    @media screen and (max-width: 730px) {
+        gap: 15px;
+    }
+
+    .money {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+
+      .first-child {
+        font-weight: 600;
+        font-size: 20px;
+        color: $black-color;
+      }
+
+      .other {
+        background-color: #ffd740;
+        color: $black-color;
+        width: fit-content;
+        padding: 4px 6px;
+        border-radius: 6px;
+
+        @media screen and (max-width: 1245px) {
+          padding: 2px 4px;
+          font-size: 15px;
+        }
+      }
+    }
+
+    .content__title {
+      font-size: 18px;
+      line-height: 23px;
+      height: 70px;
+
+      @media screen and (max-width: 1060px) {
+        font-size: 20px;
+      }
+
+      @media screen and (max-width: 730px) {
+        height: 50px;
+      }
+
+      @media screen and (max-width: 560px) {
+        font-size: 17px;
+      }
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+
+    .shopcart {
+      border: 2px solid $black-color;
+      width: 40px;
+      border-radius: 6px;
+      display: flex;
+      justify-content: center;
+      padding: 4px 0;
+    }
+
+    .payment {
+      border: 2px solid $main-color;
+      color: $main-color;
+      font-size: 17px;
+      padding: 4px 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      border-radius: 6px;
+      white-space: nowrap;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 22px;
+      }
+
+      @media screen and (max-width: 1060px) {
+        font-size: 17px;
+      }
+
+      @media screen and (max-width: 910px) {
+        font-size: 19px;
+      }
+
+      @media screen and (max-width: 730px) {
+        font-size: 21px;
+      }
+
+      @media screen and (max-width: 620px) {
+        font-size: 18px;
+      }
+
+      @media screen and (max-width: 520px) {
+        font-size: 18px;
+      }
+
+      @media screen and (max-width: 480px) {
+        font-size: 22px;
+      }
+    }
+  }
+}
